@@ -1,0 +1,139 @@
+header{
+    text-align: center;
+    display: block;
+    background-color:rgb(41, 41, 41);
+    width: 100%;
+    padding: auto;
+    margin: auto;
+}
+body{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+}
+
+#login{
+    height: 30px;
+}
+
+#pelota{
+    float: left;
+    width: 40px;
+    height: 40px;
+    transition-duration: 5s;
+}
+
+#pelota:hover{
+    transform: rotateZ(360deg);
+    transition-duration: 5s;
+    
+}
+
+#titulo{
+    color: white;
+    background-color: red;
+}
+
+#titulo:hover{
+    color:rgb(41, 41, 41);
+}
+
+#escudo{
+    width: 125px;
+    height: 125px;
+    transition: 1.5s;
+}
+
+#escudo:hover{
+    width: 250px;
+    height: 250px;
+    transition: 1.5s;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(41, 41, 41);
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 210vh;
+}
+
+#barra-nav{
+    text-align: center;
+}
+
+.nav-item-home, .nav-item{
+    border-radius: 15px;
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    padding: 15px;
+    display: inline;
+}
+
+.nav-item-home:hover, .nav-item:hover{
+    background-color: rgb(173, 0, 0);
+
+}
+
+.nav-value, .nav-value-home{
+    border-radius: 25px;
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-value:hover, .nav-value-home:hover{
+    color:black;
+    background-color: rgb(173, 0, 0);
+}
+
+
+#titulares{
+    float: left;
+    width: 30%;
+}
+
+.jugadores{
+    width: 40px;
+    height: 80px;
+    transition: 1s;
+    padding: auto;
+
+}
+
+.jugadores:hover{
+    width: 120px;
+    height: 240px;
+    transition: 1s;
+}
+
+thead, th, caption, tbody, tr, br{
+    color: white;
+    border: 1px solid red;
+}
+
+#container{
+    float: right;
+    width: 70%;
+}
+
+.noticia{
+    color: red;
+}
+.articulo{
+    color: white;
+}
+
+#foot{
+    background-color: white;
+    padding: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+footer{
+    background-color: red;
+}
+
